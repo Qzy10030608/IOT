@@ -50,14 +50,14 @@ void displayWiFiInfo() {
   M5.Display.setCursor(10, 10);
   M5.Display.println("SSID: " + WiFi.SSID());
 
-  M5.Display.setCursor(10, 40);
+  M5.Display.setCursor(10, 30);
   M5.Display.println("IP Address: ");
-  M5.Display.setCursor(10, 60);
+  M5.Display.setCursor(10, 50);
   M5.Display.println(WiFi.localIP());
 
-  M5.Display.setCursor(10, 100);
+  M5.Display.setCursor(10, 70);
   M5.Display.println("Press A for connections");
-  M5.Display.setCursor(10, 120);
+  M5.Display.setCursor(10, 110);
   M5.Display.println("Hold B 5s to reset Wi-Fi");
 }
 
